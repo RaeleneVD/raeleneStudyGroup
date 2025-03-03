@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 //This is a comment
+//comment 2
 
 namespace raeleneStudyGroup.Controllers 
 {
@@ -16,10 +17,10 @@ namespace raeleneStudyGroup.Controllers
             List<Models.raeleneStudyGroupModel> myStudyGroup = new List<Models.raeleneStudyGroupModel>();
             //"myStudyGroup" is list name "MyStudentModel is the class"
             myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 20467207, FirstName = "Raelene", LastName = "Dookkoo", Email = "u20467207@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 22345678, FirstName = "Valeska", LastName = "Fly", Email = "u22345678@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 34567892, FirstName = "Jake", LastName = "Niel", Email = "u34567892@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 45678912, FirstName = "Danny", LastName = "Phantom", Email = "u45678912@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 56789123, FirstName = "Katsuki", LastName = "Bakugou", Email = "u56789123@tuks.co.za" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 23704404, FirstName = "Unathi", LastName = "Mokgothu", Email = "u23704404@tuks.co.za" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 22500333, FirstName = "Jay", LastName = "Mashele", Email = "u22500333@tuks.co.za" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 24979962, FirstName = "Sivu", LastName = "Ngalo", Email = "u24979962@tuks.co.za" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 19100133, FirstName = "Matthew", LastName = "Reed", Email = "u19100133@tuks.co.za" });
 
             return View(myStudyGroup);
         }
