@@ -148,6 +148,11 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\JayHTML.html" />
+    <Content Include="HTML\MatthewHTML.html" />
+    <Content Include="HTML\RaeleneHTML.html" />
+    <Content Include="HTML\SivuHTML.html" />
+    <Content Include="HTML\UnathiHTML.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />

@@ -16,11 +16,11 @@ namespace raeleneStudyGroup.Controllers
         {
             List<Models.raeleneStudyGroupModel> myStudyGroup = new List<Models.raeleneStudyGroupModel>();
             //"myStudyGroup" is list name "MyStudentModel is the class"
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 20467207, FirstName = "Raelene", LastName = "Dookkoo", Email = "u20467207@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 23704404, FirstName = "Unathi", LastName = "Mokgothu", Email = "u23704404@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 22500333, FirstName = "Jay", LastName = "Mashele", Email = "u22500333@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 24979962, FirstName = "Sivu", LastName = "Ngalo", Email = "u24979962@tuks.co.za" });
-            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 19100133, FirstName = "Matthew", LastName = "Reed", Email = "u19100133@tuks.co.za" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 20467207, FirstName = "Raelene", LastName = "Dookkoo", Email = "u20467207@tuks.co.za", myLink = "Raelene" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 23704404, FirstName = "Unathi", LastName = "Mokgothu", Email = "u23704404@tuks.co.za", myLink = "Unathi" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 22500333, FirstName = "Jay", LastName = "Mashele", Email = "u22500333@tuks.co.za", myLink = "Jay" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 24979962, FirstName = "Sivu", LastName = "Ngalo", Email = "u24979962@tuks.co.za", myLink = "Sivu" });
+            myStudyGroup.Add(new Models.raeleneStudyGroupModel { StudentNumber = 19100133, FirstName = "Matthew", LastName = "Reed", Email = "u19100133@tuks.co.za", myLink = "Matthew" });
 
             return View(myStudyGroup);
         }
