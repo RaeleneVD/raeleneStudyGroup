@@ -20,7 +20,7 @@ namespace raeleneStudyGroup.Models
         [Display(Name = "EMAIL ADDRESS")]
         public string Email { get; set; } = "";
 
-        [Display(Name = "LINK")]
+        [Display(Name = "LINK TO PERSONAL PAGE")]
         public string myLink { get; set; } = "";
     }
 }
