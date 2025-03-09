@@ -2,7 +2,7 @@
 /*Main background sections*/
 body {
     font-family: Arial, sans-serif;
-    background-color: mediumseagreen; 
+    background-color: lightsteelblue; 
     margin: 0;
     padding: 0;
 }
@@ -29,8 +29,16 @@ body {
         padding: 10px 20px;
         display: inline-block;
         font-weight: bold;
-        transition:background-color 0.3s ease;
-        
+        transition: background-color 0.3s ease;
+        border-right: 1px solid white;
+    }
+
+    .navBack{
+        border-right:none;
+    }
+
+    .navbar a:last-child{
+        border-right:none;
     }
 
         .navbar a.active {
