@@ -1,0 +1,118 @@
+﻿
+/*Main background sections*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: mediumseagreen; 
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: #d9ead3;
+    border: 4px solid green;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/*Navigation bar*/
+.navbar {
+    background-color: black; 
+    padding: 10px;
+    text-align: center;
+   
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: inline-block;
+        font-weight: bold;
+        transition:background-color 0.3s ease;
+        
+    }
+
+        .navbar a.active {
+            background-color: green; /*green when active*/
+        }
+
+        .navbar a:hover:not(.active) {
+            background-color: grey;
+        }
+
+ /* Headings */
+    h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    h1{
+        padding:10px;
+    }
+
+    hr{
+        background-color:darkgreen;
+    }
+
+/* Content*/
+.background {
+    background-color: white;
+    border: 2px solid green;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+    .textImage {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .background img {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+
+.hobbies {
+    background-color: white;
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+    .hobbies img {
+        width: 80px;
+        height: 80px;
+        margin-left: 15px;
+    }
+
+.modules {
+    background-color: white;
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+}
+.moduleContent {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .background, .hobbies, .modules {
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .background img, .hobbies img {
+            margin: 10px auto;
+        }
+
+    .moduleContent{
+        width: 100%;
+    }
+}

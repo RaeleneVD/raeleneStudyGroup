@@ -5,71 +5,88 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Practical2</title>
-    <link href="../Content/NweStyles.css" rel="stylesheet" />
+    <link href="../Content/NewStyles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <h1>Jay Mashele</h1>
-    </header>
+    <div class="main">
+        <header>
+            <h1>Jay Mashele</h1>
+        </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="~/Views/_ViewStart.cshtml">MAIN</a>
-        <a href="~/Views/raeleneStudyGroup/raeleneStudyGroupView.cshtml">LIST</a>
-        <a href="RaeleneHTML.html">Raelene</a>
-        <a href="UnathiHTML.html">Unathi</a>
-        <a href="JayHTML.html">Jay</a>
-        <a href="SivuHTML.html">Sivu</a>
-        <a href="MatthewHTML.html">Matthew</a>
-        <a href="~/Views/_ViewStart.cshtml">BACK</a>
+        <!-- Navigation Bar -->
+        <hr/>
+        <nav class="navbar">
+            <a href="~/Views/_ViewStart.cshtml">MAIN</a>
+            <a href="~/Views/raeleneStudyGroup/raeleneStudyGroupView.cshtml">LIST</a>
+            <a href="RaeleneHTML.html">Raelene</a>
+            <a href="UnathiHTML.html">Unathi</a>
+            <a href="JayHTML.html" class="active">Jay</a>
+            <a href="SivuHTML.html">Sivu</a>
+            <a href="MatthewHTML.html">Matthew</a>
+            <a href="~/Views/_ViewStart.cshtml">BACK</a>
 
-    </nav>
+        </nav>
+        <hr/>
 
-    <main>
-        <!-- Background Section -->
-        <section id="background">
-            <h2>Biography and Background</h2>
-            <p>
-                Jay was born and lives in Midrand and so she travels everyday to Pretoria to persue her degree at the University of Pretoria. 
-                That degree being BIS with informatics as her electives.
-                She is passionate about coding and designing stuff and so her degree is perfect for her passions.
-            </p>
-        </section>
-
-        <!-- Hobbies Section -->
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p>
-                Jay is incredible with art. She loves drawing and designing whether it be on paper or digitally.
-                She also loves to watch anime and read manga. 
-                Her other passions include dressing for the part, as she loves to follow her own alt style and this includes nails.
-            </p>
-        </section>
-
-        <!-- Modules Section -->
-        <section id="modules">
-            <h2>Modules</h2>
-            <div>
-                <h3>Semester 1</h3>
-                <ul>
-                    <li>INF 272</li>
-                    <li>INF 271</li>
-                    <li>INF 214</li>
-                    <li>INL 210</li>
-                    <li>OBS 210</li>
-                </ul>
+        <div class="mainContainer">
+            <!-- Background Section -->
+            <div class="background">
+                <h2>Biography and Background</h2>
+                <div class="textImage">
+                    <p>
+                        Jay was born and lives in Midrand and so she travels everyday to Pretoria to persue her degree at the University of Pretoria.
+                        That degree being BIS with informatics as her electives.
+                        She is passionate about coding and designing stuff and so her degree is perfect for her passions.
+                    </p>
+                </div>
+               
             </div>
-            <div>
-                <h3>Semester 2</h3>
-                <ul>
-                    <li>INF 272</li>
-                    <li>INF 271</li>
-                    <li>INF 216</li>
-                    <li>INL 220</li>
-                </ul>
+
+            <!-- Hobbies Section -->
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <div class="textImage">
+                    <p>
+                    Jay is incredible with art. She loves drawing and designing whether it be on paper or digitally.
+                    She also loves to watch anime and read manga.
+                    Her other passions include dressing for the part, as she loves to follow her own alt style and this includes nails.
+                    </p>
+                </div>
+                    
+                   
+                </div>
+
+                <!-- Modules Section -->
+            <div class="modules">
+                <h2>Modules</h2>
+                <p>These are the modules that Jay takes:</p>
+                <div class="moduleContent">
+                    <div>
+                        <h3>Semester 1</h3>
+                        <ul>
+                            <li>INF 272</li>
+                            <li>INF 271</li>
+                            <li>INF 214</li>
+                            <li>INL 210</li>
+                            <li>OBS 210</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Semester 2</h3>
+                        <ul>
+                            <li>INF 272</li>
+                            <li>INF 271</li>
+                            <li>INF 216</li>
+                            <li>INL 220</li>
+                        </ul>
+                    </div>
+
+                </div>
+                
             </div>
-        </section>
-    </main>
+            </div>
+    </div>
+    
 </body>
 </html>

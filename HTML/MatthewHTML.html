@@ -5,70 +5,85 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Practical2</title>
-    <link href="../Content/NweStyles.css" rel="stylesheet" />
+    <link href="../Content/NewStyles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <h1>Matthew Reed</h1>
-    </header>
+    <div class="main">
+        <header>
+            <h1>Matthew Reed</h1>
+        </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="~/Views/_ViewStart.cshtml">MAIN</a>
-        <a href="~/Views/raeleneStudyGroup/raeleneStudyGroupView.cshtml">LIST</a>
-        <a href="RaeleneHTML.html">Raelene</a>
-        <a href="UnathiHTML.html">Unathi</a>
-        <a href="JayHTML.html">Jay</a>
-        <a href="SivuHTML.html">Sivu</a>
-        <a href="MatthewHTML.html">Matthew</a>
-        <a href="~/Views/_ViewStart.cshtml">BACK</a>
+        <!-- Navigation Bar -->
+        <hr/>
+        <nav class="navbar">
+            <a href="~/Views/_ViewStart.cshtml">MAIN</a>
+            <a href="~/Views/raeleneStudyGroup/raeleneStudyGroupView.cshtml">LIST</a>
+            <a href="RaeleneHTML.html">Raelene</a>
+            <a href="UnathiHTML.html">Unathi</a>
+            <a href="JayHTML.html">Jay</a>
+            <a href="SivuHTML.html">Sivu</a>
+            <a href="MatthewHTML.html" class="active">Matthew</a>
+            <a href="~/Views/_ViewStart.cshtml">BACK</a>
 
-    </nav>
+        </nav>
+        <hr/>
 
-    <main>
-        <!-- Background Section -->
-        <section id="background">
-            <h2>Biography and Background</h2>
-            <p>
-               Matthew Reed was born in Richards Bay and later moved to Centurion. 
-                He studied BIS Multimedia at the University of Pretoria because "It was either this or farming for me and this just pays more." 
-                He says that but he is actually really good at what he does and is a genius.
-            </p>
-        </section>
-
-        <!-- Hobbies Section -->
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p>
-               Matthew's hobbies are gaming, reading, and watching anime. 
-                He loves all sports and activities. 
-                He does coding projects for fun when he's not coding for work, and is a quiz night champion.
-            </p>
-        </section>
-
-        <!-- Modules Section -->
-        <section id="modules">
-            <h2>Modules</h2>
-            <div>
-                <h3>Semester 1</h3>
-                <ul>
-                    <li>IMY 300</li>
-                    <li>IMY 310</li>
-                    <li>IMY 320</li>
-                </ul>
+        <div class="mainContainer">
+            <!-- Background Section -->
+            <div class="background">
+                <h2>Biography and Background</h2>
+                <div class="textImage">
+                    <p>
+                        Matthew Reed was born in Richards Bay and later moved to Centurion.
+                        He studied BIS Multimedia at the University of Pretoria because "It was either this or farming for me and this just pays more."
+                        He says that but he is actually really good at what he does and is a genius.
+                    </p>
+                </div>
+               
             </div>
-            <div>
-                <h3>Semester 2</h3>
-                <ul>
-                    <li>COS 301</li>
-                    <li>COS 314</li>
-                    <li>COS 330</li>
-                    <li>COS 332</li>
-                    <li>COS 333</li>
-                </ul>
+
+            <!-- Hobbies Section -->
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <div class="textImage">
+                    <p>
+                        Matthew's hobbies are gaming, reading, and watching anime.
+                        He loves all sports and activities.
+                        He does coding projects for fun when he's not coding for work, and is a quiz night champion.
+                    </p>
+                </div>
+               
             </div>
-        </section>
-    </main>
+
+            <!-- Modules Section -->
+            <div class="modules">
+                <h2>Modules</h2>
+                <p>These are the modules that Matthew takes:</p>
+                <div class="moduleContent">
+                    <div>
+                        <h3>Module: Semester 1</h3>
+                        <ul>
+                            <li>IMY 300</li>
+                            <li>IMY 310</li>
+                            <li>IMY 320</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Module: Semester 2</h3>
+                        <ul>
+                            <li>COS 301</li>
+                            <li>COS 314</li>
+                            <li>COS 330</li>
+                            <li>COS 332</li>
+                            <li>COS 333</li>
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+   
 </body>
 </html>

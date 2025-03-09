@@ -5,76 +5,91 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Practical2</title>
-    <link href="../Content/NweStyles.css" rel="stylesheet" />
+    <link href="../Content/NewStyles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <h1>Unathi Mokgothu</h1>
-    </header>
+    <div class="main">
+        <header>
+            <h1>Unathi Mokgothu</h1>
+        </header>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="~/Views/_ViewStart.cshtml">MAIN</a>
-        <a href="~/Views/raeleneStudyGroup/raeleneStudyGroupView.cshtml">LIST</a>
-        <a href="RaeleneHTML.html">Raelene</a>
-        <a href="UnathiHTML.html">Unathi</a>
-        <a href="JayHTML.html">Jay</a>
-        <a href="SivuHTML.html">Sivu</a>
-        <a href="MatthewHTML.html">Matthew</a>
-        <a href="~/Views/_ViewStart.cshtml">BACK</a>
+        <!-- Navigation Bar -->
+        <hr/>
+        <nav>
+            <a href="~/Views/_ViewStart.cshtml">MAIN</a>
+            <a href="~/Views/raeleneStudyGroup/raeleneStudyGroupView.cshtml">LIST</a>
+            <a href="RaeleneHTML.html">Raelene</a>
+            <a href="UnathiHTML.html" class="active">Unathi</a>
+            <a href="JayHTML.html">Jay</a>
+            <a href="SivuHTML.html">Sivu</a>
+            <a href="MatthewHTML.html">Matthew</a>
+            <a href="~/Views/_ViewStart.cshtml">BACK</a>
 
-    </nav>
+        </nav>
+        <hr/>
 
-    <main>
-        <!-- Background Section -->
-        <section id="background">
-            <h2>Biography and Background</h2>
-            <p>
-                Unathi was born in Kimberly and raised there and in the Northern Cape, later moving to Pretoria to study.
-                She studies at the University of Pretoria, persuing BIS streaming in Informatics. 
-                She studies this as she has always found coding interesting and really enjoys the work she is doing.
-        </section>
-
-        <!-- Hobbies Section -->
-        <section id="hobbies">
-            <h2>Hobbies</h2>
-            <p>
-                Unathi loves to cook and pairs all activities with music.
-                She is in love with Studio Ghibli and makes it her hobby to watch all their movies.
-                People can say that one of her hobbies is to spread positivity and love to the world.
-            </p>
-        </section>
-
-        <!-- Modules Section -->
-        <section id="modules">
-            <h2>Modules</h2>
-            <div>
-                <h3>Semester 1</h3>
-                <ul>
-                    <li>INF 272</li>
-                    <li>INF 271</li>
-                    <li>INF 214</li>
-                    <li>INL 210</li>
-                    <li>INL 240</li>
-                    <li>OBS 210</li>
-                    <li>JCP 202</li>
-
-                </ul>
+        <div class="mainContainer">
+            <!-- Background Section -->
+            <div class="background">
+                <h2>Biography and Background</h2>
+                <div class="textImage">
+                    <p>
+                        Unathi was born in Kimberly and raised there and in the Northern Cape, later moving to Pretoria to study.
+                        She studies at the University of Pretoria, persuing BIS streaming in Informatics.
+                        She studies this as she has always found coding interesting and really enjoys the work she is doing.
+                     </p>
+                </div>
+               
             </div>
-            <div>
-                <h3>Semester 2</h3>
-                <ul>
-                    <li>INF 272</li>
-                    <li>INF 271</li>
-                    <li>INF 216</li>
-                    <li>INL 220</li>
-                    <li>INF 225</li>
-                    <li>JCP 202</li>
-                    <li>PUB 220</li>
-                </ul>
+
+            <!-- Hobbies Section -->
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <div class="textImage">
+                    <p>
+                        Unathi loves to cook and pairs all activities with music.
+                        She is in love with Studio Ghibli and makes it her hobby to watch all their movies.
+                        People can say that one of her hobbies is to spread positivity and love to the world.
+                    </p>
+                </div>
+                
             </div>
-        </section>
-    </main>
+
+            <!-- Modules Section -->
+            <div class="modules">
+                <h2>Modules</h2>
+                <p>These are the modules that Unathi takes:</p>
+                <div class="moduleContent">
+                    <div>
+                        <h3>Modeule: Semester 1</h3>
+                        <ul>
+                            <li>INF 272</li>
+                            <li>INF 271</li>
+                            <li>INF 214</li>
+                            <li>INL 210</li>
+                            <li>INL 240</li>
+                            <li>OBS 210</li>
+                            <li>JCP 202</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Module: Semester 2</h3>
+                        <ul>
+                            <li>INF 272</li>
+                            <li>INF 271</li>
+                            <li>INF 216</li>
+                            <li>INL 220</li>
+                            <li>INF 225</li>
+                            <li>JCP 202</li>
+                            <li>PUB 220</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+   
 </body>
 </html>
