@@ -149,7 +149,17 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="HTML\Images\black-widow-1.jpg" />
+    <Content Include="HTML\Images\coding.jpg" />
     <Content Include="HTML\Images\cooking.jpg" />
+    <Content Include="HTML\Images\cooking2.jpg" />
+    <Content Include="HTML\Images\drawing.jpg" />
+    <Content Include="HTML\Images\painting.jpg" />
+    <Content Include="HTML\Images\perfume.jpg" />
+    <Content Include="HTML\Images\steve-rogers.jpg" />
+    <Content Include="HTML\Images\thor-lightning.jpg" />
+    <Content Include="HTML\Images\tony-stark-iron-man.jpg" />
+    <Content Include="HTML\Images\Wanda-Scarlet-Witch-Cropped.jpg" />
     <Content Include="HTML\JayHTML.html" />
     <Content Include="HTML\MatthewHTML.html" />
     <Content Include="HTML\RaeleneHTML.html" />
@@ -161,7 +171,6 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="HTML\Images\steve-rogers.webp" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />

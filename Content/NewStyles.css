@@ -71,16 +71,22 @@ body {
     padding: 30px;
     margin-bottom: 20px;
 }
-    .textImage {
-        display: flex;
-        align-items: flex-start;
+.textImage {
+    display: flex;
+    align-items: flex-start;
+    
+}
+    .textImage img {
+        width: 250px;
+        height: auto;
+        padding: 5px;
     }
 
-    .background img {
-        width: 80px;
-        height: 80px;
-        margin-right: 15px;
-    }
+.textImage img:hover  {
+    transform: rotateY(180deg);
+}
+
+    
 
 .hobbies {
     background-color: white;
@@ -89,11 +95,7 @@ body {
     margin-bottom: 20px;
 }
 
-    .hobbies img {
-        width: 80px;
-        height: 80px;
-        margin-left: 15px;
-    }
+   
 
 .modules {
     background-color: white;
@@ -116,9 +118,7 @@ body {
         text-align: center;
     }
 
-        .background img, .hobbies img {
-            margin: 10px auto;
-        }
+       
 
     .moduleContent{
         width: 100%;
