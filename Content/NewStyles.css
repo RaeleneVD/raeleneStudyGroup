@@ -82,7 +82,7 @@ body {
         padding: 5px;
     }
 
-.textImage img:hover  {
+.textImage img:hover  {             /*transform*/
     transform: rotateY(180deg);
 }
 
